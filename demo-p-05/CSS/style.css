@@ -1,0 +1,516 @@
+/* style file */
+.nav-logo {
+  width: 233px;
+  height: 207px;
+}
+.navbar{
+  z-index: 1;
+}
+.navbar-brand {
+  margin-left: -25px;
+  margin-top: -5px;
+}
+
+.nav-lang {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.home-banner {
+  min-height: 1080px;
+  background: url(../images/2.webp) no-repeat center center/cover;
+  background-color: black;
+  padding-top: 250px;
+}
+
+.form-inline {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* slic slider */
+.home-slider .slick-prev {
+  left: unset !important;
+  right: 245px;
+
+}
+
+.home-slider .slick-next {
+  bottom: 0;
+  right: 143px;
+}
+
+.home-slider .slick-next:before,
+.home-slider .slick-prev:before {
+  font-size: 53px !important;
+}
+
+.home-slider .slick-next,
+.home-slider .slick-prev {
+  top: 88% !important;
+  z-index: 1;
+}
+/* slick slider project section */
+
+/* .project-container .slick-track {
+  transform:none !important;
+} */
+.project-container .slick-prev{
+  left: unset !important;
+  right: 288px !important;
+}
+.project-container .slick-next{
+  right:210px !important;
+}
+.project-container .slick-next, .project-container .slick-prev{
+  top: -13% !important;
+}
+.project-container .slick-next:before, .project-container .slick-prev:before{
+  font-size: 52px !important;
+  color: red !important;
+}
+
+
+
+.nav-line {
+  font-size: 33px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.home-banner .home-info .h-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 98px;
+  color: #ffffff;
+}
+
+.home-banner .home-info p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  /* or 180% */
+  color: #b0b0b0;
+}
+
+.home-banner .line-bar {
+  background: #ffffff;
+  position: absolute;
+  width: 111px;
+  height: 6px;
+  top: -12px;
+}
+
+.book-now-btn {
+  background: #ed1d26;
+  width: 193px;
+  height: 64px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #ffffff;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.book-now-btn:hover {
+  background: transparent;
+  color: #ed1d26;
+  border: 1px solid #ed1d26;
+}
+
+/* SERVICE SECTION */
+.our-service-container {
+  height: 898px;
+}
+
+.service-header {
+  margin-top: 17px;
+}
+
+.h2-header,
+.importent-container .i-header h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 63px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #232323;
+}
+
+.sub-header,
+.importent-container .i-header p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #606060;
+}
+
+.service-body .card {
+  margin-top: 14px;
+  height: 530px;
+}
+
+.our-service-container .service-body .card-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #232323;
+}
+
+.our-service-container .service-body .card-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+  max-width: 450px;
+  text-align: center;
+
+  color: #353535;
+}
+
+.our-service-container .service-body .card-head {
+  height: 294px;
+}
+
+.our-service-container .service-body .card:hover {
+  box-shadow: 0px 4px 74px rgba(0, 0, 0, 0.25);
+}
+
+.our-service-container .service-body .card:hover .card-title {
+  color: red;
+}
+
+/* COLLECTION CONTAINER */
+.collection-container {
+  height: 1020px;
+  /* background: url(../images/col-bg.webp);
+  background-repeat: no-repeat;
+  background-size: 92% 80%;
+ 
+     background-position: bottom left;  */
+}
+
+.collection-container::before {
+  content: "";
+  width: 92%;
+  height: 80%;
+  background: #2a3c8f;
+  z-index: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.collection-container .media-icon {
+  color: #ffff;
+  font-size: 78px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.collection-container .front-header h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 51px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.collection-container .front-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 34px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.collection-container .front-part {
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      #030303 0%,
+      rgba(3, 3, 3, 0) 85.54%
+    ),
+    url(../images/5.webp) no-repeat center center/cover;
+  width: 91%;
+  height: 86%;
+  right: 0;
+  top: 0;
+}
+
+/* Project Container  */
+.project-container {
+  height: 1090px;
+}
+
+.project-container .project-header h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.project-container .project-header h2 span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 76px;
+  text-transform: uppercase;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.project-container .card-1 {
+  width: 677px !important;
+  height: 772px;
+}
+
+.project-container .card-1 .card-top {
+  height: 100%;
+  width: 100%;
+}
+
+.project-container .card-1 .image img {
+  width: 692px;
+  height: 678px;
+}
+
+.project-container .card-1 .card-buttom {
+  width: 81%;
+  height: 22%;
+  background: #ffff;
+  left: -1px;
+  bottom: 0;
+}
+
+.project-container .card-buttom .card-header-1 h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.project-container .card-1 .card-text p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.project-container .project {
+  width: 120%;
+ 
+}
+
+/* about container */
+
+.about-container {
+  border-top: 1px solid #c6c6c6;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.about-container .about-header h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.about-container .about-header h2 span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 63px;
+  color: #000000;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.about-container .right-part .para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 34px;
+  color: #000000;
+}
+
+/* importent section */
+.importent-container .card-2 h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+  text-align: center;
+
+  color: #262626;
+}
+
+.importent-container .card-2 h5:hover {
+  color: #ed1d24;
+}
+
+.importent-container .card-2 .icon {
+  text-align: center;
+  color: #e11d26;
+  font-size: 76px;
+}
+
+.importent-container .b-none {
+  border-left: 1px solid #d1d1d1;
+  border-right: 1px solid #d1d1d1;
+}
+
+.importent-container .card-2 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #262626;
+  opacity: 0.8;
+}
+
+/* gallery section */
+.gallery-container .gallery-center {
+  width: 17%;
+  height: 72%;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+}
+
+.gallery-container .gallery-center:hover {
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+.gallery-container .gallery-center:hover p {
+  color: #ed1d24;
+}
+
+.gallery-container .gallery-center h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 63px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.gallery-container .gallery-center p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* footer section */
+.footer-container .media-icon .icon {
+  font-size: 33px;
+  color: #a3a3a3;
+  cursor: pointer;
+}
+
+.f-left .logo {
+  cursor: pointer;
+}
+
+.footer-container .media-icon .icon:hover {
+  color: #ed1d24;
+}
+
+.footer-container .f-left {
+  width: 62%;
+}
+
+.footer-container .copy-right p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #797979;
+}
+
+.footer-container .f-menu .header {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #212832;
+}
+
+.footer-container .f-menu ul li a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 36px;
+  cursor: pointer;
+  color: #696d76;
+}
+
+.footer-container .f-menu ul li a:hover {
+  color: #ed1d26;
+}
